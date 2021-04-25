@@ -49,13 +49,18 @@ public class MainActivity extends AppCompatActivity {
         //communityService.PraiseItem(user2,dynamic);
 
        //communityService.showPraise(dynamic);
-        Log.d("msg1",communityService.showPraise(dynamic));
+        //communityService.showDynaics();
+        /**
+         * 注意自己不能回复自己
+         */
+
+        //communityService.createPublicComment(user1,dynamic,"你好坏啊，我超喜欢！");
+        //communityService.createPublicComment(user2,dynamic,"小鲨鱼停止了思考！");
+        //communityService.createReplyComment(user1,dynamic,"你能不能做个人？？？",user2);
+        communityService.showComments(dynamic);
 
 
-           // Log.d("msg2","程序在主线程");
-           // Log.d("msg","点赞人 "+praiseMans.get(0).getString("name"));
 
-            //Log.d("msg","点赞人 "+praiseMans.get(1).getString("name"));
 
 
 
